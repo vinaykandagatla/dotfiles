@@ -1,0 +1,16 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-e": "project_panel::ToggleFocus",
+      "alt-p": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "tab": null,
+      "alt-enter": "editor::AcceptInlineCompletion"
+    }
+  }
+]

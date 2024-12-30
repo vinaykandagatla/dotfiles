@@ -1,0 +1,12 @@
+while true; do
+    date=$(date +'%A, %b %d')
+    time=$(date +'%I:%M %p')
+    bat0=$(cat /sys/class/power_supply/BAT0/capacity)
+    stat=$(cat /sys/class/power_supply/BAT0/status)
+    powe=$(awk '{print $1*1e-6 " W"}' /sys/class/power_supply/BAT0/power_now)
+
+    echo "$powe | $bat0% $stat | $date | $time"
+
+    sleep 1
+done
+

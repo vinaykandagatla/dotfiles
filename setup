@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p $HOME/.config $HOME/.cache
+stow . -t $HOME

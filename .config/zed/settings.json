@@ -1,0 +1,29 @@
+{
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "dark",
+    "light": "Solarized Light",
+    "dark": "Solarized Dark"
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  }
+}
